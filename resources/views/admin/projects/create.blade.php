@@ -106,7 +106,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                 {!! Form::submit('Create Project',['class'=>'btn btn-success'])!!}
-                                <a href="{{URL::to("admincon/rooms/")}}">
+                                <a href="{{URL::to("admincon/projects/")}}">
                                     <button type="button" class="btn default">Cancel</button>
                                 </a>
                             </div>
